@@ -1,0 +1,80 @@
+.containerC img{
+    width: 250px;
+    border-radius: 20px;
+}
+.containerB img{
+    width: 250px;
+    border-radius: 20px;
+}
+.containerA img{
+    width: 250px;
+    border-radius: 20px;
+}
+.containerA{
+    background-color: rgb(44, 43, 43);
+    color: rgb(255, 255, 255);
+    width: 300px;
+    padding: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    text-align: center;
+}
+
+    .containerB{
+        background-color: rgb(202, 88, 98);
+        color: rgb(255, 255, 255);
+        width: 300px;
+        padding: 20px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .containerC{
+        background-color: rgb(30, 0, 87);
+        color: rgb(255, 255, 255);
+        width: 300px;
+        padding: 20px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        text-align: center;
+}
+.centralizar{
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 50px;
+}
+.centralizar2{
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    padding: 50px;
+}
+
+*{
+    color: rgb(255, 255, 255);  
+    font-weight: 700;
+}
+body{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+button{
+display: flex;
+border: none;
+flex-direction: row;
+border-radius: 5px;
+padding: 10px 20px;
+background-color: black;
+justify-content: space-around;
+}
